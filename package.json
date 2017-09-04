@@ -12,7 +12,9 @@
     "proxy",
     "egg-proxy"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "koa-proxy": "^0.8.0"
+  },
   "devDependencies": {
     "autod": "^2.8.0",
     "autod-egg": "^1.0.0",
