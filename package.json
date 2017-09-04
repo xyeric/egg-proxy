@@ -1,9 +1,9 @@
 {
   "name": "egg-proxy",
-  "version": "1.0.3",
-  "description": "proxy middleware for egg",
+  "version": "1.0.4",
+  "description": "proxy plugin for egg",
   "eggPlugin": {
-    "name": "eggProxy"
+    "name": "proxy"
   },
   "keywords": [
     "egg",
@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-proxy.git"
+    "url": "git+https://github.com/xxeric/egg-proxy.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/xxeric/egg-proxy/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-proxy#readme",
+  "homepage": "https://github.com/xxeric/egg-proxy#readme",
   "author": "qeric",
   "license": "MIT"
 }
