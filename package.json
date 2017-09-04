@@ -1,6 +1,6 @@
 {
   "name": "egg-proxy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "proxy plugin for egg",
   "eggPlugin": {
     "name": "proxy"
@@ -41,7 +41,9 @@
   },
   "files": [
     "app.js",
-    "config"
+    "config",
+    "app",
+    "lib"
   ],
   "ci": {
     "version": "6, 8"
