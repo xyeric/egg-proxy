@@ -34,7 +34,7 @@ $ npm i egg-proxy --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.eggProxy = {
+exports.proxy = {
   enable: true,
   package: 'egg-proxy',
 };
@@ -44,7 +44,7 @@ exports.eggProxy = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.eggProxy = {
+exports.proxy = {
   host: 'http://localhost:9000', // target host that matched path will be proxy to
   match: /\/assets/ // path pattern.
 };

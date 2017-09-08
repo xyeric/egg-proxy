@@ -47,7 +47,7 @@ egg-proxy 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.eggProxy = {
+exports.proxy = {
   enable: true,
   package: 'egg-proxy',
 };
@@ -69,7 +69,7 @@ exports.eggProxy = {
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
+请到 [egg issues](https://github.comxxerics/egg-proxy/issues) 异步交流。
 
 ## License
 
