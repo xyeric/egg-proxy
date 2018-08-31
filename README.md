@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-proxy.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-proxy
-[travis-image]: https://img.shields.io/travis/eggjs/egg-proxy.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-proxy
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-proxy.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-proxy?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-proxy.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-proxy
+[travis-image]: https://img.shields.io/travis/xyeric/egg-proxy.svg?style=flat-square
+[travis-url]: https://travis-ci.org/xyeric/egg-proxy
+[codecov-image]: https://img.shields.io/codecov/c/github/xyeric/egg-proxy.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/xyeric/egg-proxy?branch=master
+[david-image]: https://img.shields.io/david/xyeric/egg-proxy.svg?style=flat-square
+[david-url]: https://david-dm.org/xyeric/egg-proxy
 [snyk-image]: https://snyk.io/test/npm/egg-proxy/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-proxy
 [download-image]: https://img.shields.io/npm/dm/egg-proxy.svg?style=flat-square
@@ -23,6 +23,8 @@
 <!--
 Description here.
 -->
+
+request proxy plugin for egg framework. based on [koa-proxy](https://github.com/popomore/koa-proxy)
 
 ## Install
 
@@ -58,7 +60,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/xxeric/egg-proxy/issues).
+Please open an issue [here](https://github.com/xyeric/egg-proxy/issues).
 
 ## License
 

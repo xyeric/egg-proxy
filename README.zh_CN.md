@@ -69,7 +69,7 @@ exports.proxy = {
 
 ## 提问交流
 
-请到 [egg issues](https://github.comxxerics/egg-proxy/issues) 异步交流。
+请到 [egg issues](https://github.com/xyeric/egg-proxy/issues) 异步交流。
 
 ## License
 

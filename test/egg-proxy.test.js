@@ -15,10 +15,22 @@ describe('test/egg-proxy.test.js', () => {
   after(() => app.close());
   afterEach(mm.restore);
 
-  it('should GET /', () => {
+  it('GET /, should return 200', () => {
     return request(app.callback())
       .get('/')
-      .expect('hi, eggProxy')
+      .expect('hi, proxy')
       .expect(200);
   });
+
+  it('GET /test1, should return 500', () => {
+    return request(app.callback())
+      .get('/test1')
+      .expect(500);
+  });
+
+  // it('GET /explore, should return 200', () => {
+  //   return request(app.callback())
+  //     .get('/explore')
+  //     .expect(200);
+  // });
 });
