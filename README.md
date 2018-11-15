@@ -43,6 +43,7 @@ exports.proxy = {
 ```
 
 ## Configuration
+Single:
 
 ```js
 // {app_root}/config/config.default.js
@@ -51,7 +52,17 @@ exports.proxy = {
   match: /\/assets/ // path pattern.
 };
 ```
-
+Multiple:
+```js
+// {app_root}/config/config.default.js
+exports.proxy = [{
+  host: 'host1',
+  match: /\/assets1/
+}, {
+  host: 'host2',
+  match: /\/assets2/
+}];
+```
 see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
