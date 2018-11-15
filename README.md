@@ -1,15 +1,10 @@
-\# egg-proxy
+# egg-proxy
 
 [![NPM version][npm-image]][npm-url]
-
 [![build status][travis-image]][travis-url]
-
 [![Test coverage][codecov-image]][codecov-url]
-
 [![David deps][david-image]][david-url]
-
 [![Known Vulnerabilities][snyk-image]][snyk-url]
-
 [![npm download][download-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/egg-proxy.svg?style=flat-square
@@ -26,78 +21,47 @@
 [download-url]: https://npmjs.org/package/egg-proxy
 
 <!--
-
 Description here.
-
 -->
 
 request proxy plugin for egg framework. based on [koa-proxy](https://github.com/popomore/koa-proxy)
 
-\## Install
+## Install
 
-\```bash
-
+```bash
 $ npm i egg-proxy --save
+```
 
-\```
+## Usage
 
-\## Usage
-
-\```js
-
+```js
 // {app_root}/config/plugin.js
-
 exports.proxy = {
-
   enable: true,
-
   package: 'egg-proxy',
-
 };
+```
 
-\```
+## Configuration
 
-\## Configuration
-
-The single configuration:
-
-\```js
-
+```js
 // {app_root}/config/config.default.js
-
 exports.proxy = {
-
   host: 'http://localhost:9000', // target host that matched path will be proxy to
-
   match: /\/assets/ // path pattern.
-
 };
-
-\```
-
-Multiple configurations:
-
-\```js
-// {app_root}/config/config.default.js
-exports.proxy = [{
-  host: 'host1',
-  match: /\/assets1/
-}, {
-  host: 'host2',
-  match: /\/assets2/
-}];
-\```
+```
 
 see [config/config.default.js](config/config.default.js) for more detail.
 
-\## Example
+## Example
 
 <!-- example here -->
 
-\## Questions & Suggestions
+## Questions & Suggestions
 
 Please open an issue [here](https://github.com/xyeric/egg-proxy/issues).
 
-\## License
+## License
 
 [MIT](LICENSE)
