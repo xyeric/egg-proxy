@@ -52,7 +52,7 @@ exports.proxy = {
   match: /\/assets/ // path pattern.
 };
 ```
-Multiple:
+Multiple: 
 ```js
 // {app_root}/config/config.default.js
 exports.proxy = [{
