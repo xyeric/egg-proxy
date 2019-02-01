@@ -40,10 +40,9 @@
     "autod": "autod"
   },
   "files": [
-    "app",
-    "lib",
     "config",
-    "app.js"
+    "app.js",
+    "index.d.ts"
   ],
   "ci": {
     "version": "6, 8"
@@ -57,5 +56,6 @@
   },
   "homepage": "https://github.com/xyeric/egg-proxy#readme",
   "author": "xyeric",
+  "types": "index.d.ts",
   "license": "MIT"
 }
