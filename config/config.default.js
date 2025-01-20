@@ -2,11 +2,11 @@
 
 /**
  * egg-proxy default config
- * @member Config#proxy
+ * @member Config#pluginProxy
  * @property {String} SOME_KEY - some description
  */
 
-exports.proxy = {
+exports.pluginProxy = {
   host: 'http://localhost:7001',
   match: /^\/assets/,
 };
