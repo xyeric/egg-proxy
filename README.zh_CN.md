@@ -63,6 +63,15 @@ exports.proxy = {
 
 请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
 
+配置示例：
+```js
+// {app_root}/config/config.default.js
+exports.eggProxy = {
+  host: 'http://localhost:9000', // 代理目标地址
+  match: /\/assets/ // 路径匹配规则
+};
+```
+
 ## 单元测试
 
 <!-- 描述如何在单元测试中使用此插件，例如 schedule 如何触发。无则省略。-->

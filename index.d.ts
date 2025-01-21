@@ -1,6 +1,6 @@
 declare module 'egg' {
   interface EggAppConfig {
-    proxy: IProxy | IProxy[];
+    eggProxy: IProxy | IProxy[];
   }
   interface IProxy {
     host?: string;
