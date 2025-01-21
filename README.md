@@ -47,7 +47,7 @@ Single:
 
 ```js
 // {app_root}/config/config.default.js
-exports.proxy = {
+exports.eggProxy = {
   host: 'http://localhost:9000', // target host that matched path will be proxy to
   match: /\/assets/ // path pattern.
 };
@@ -55,7 +55,7 @@ exports.proxy = {
 Multiple: 
 ```js
 // {app_root}/config/config.default.js
-exports.proxy = [{
+exports.eggProxy = [{
   host: 'host1',
   match: /\/assets1/
 }, {
